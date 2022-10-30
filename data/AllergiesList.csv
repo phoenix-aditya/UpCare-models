@@ -1,16 +1,16 @@
 CODE,DESCRIPTION,CATEGORY,REACTION1,DESCRIPTION1,SEVERITY1,REACTION2,DESCRIPTION2,SEVERITY2
-256355007,Soya bean (substance),food,62315008.0,Diarrhea (finding),MILD,,,
-3718001,Cow's milk (substance),food,247472004.0,Wheal (finding),MILD,,,
-288328004,Bee venom (substance),environment,,,,,,
-111088007,Latex (substance),environment,267036007.0,Dyspnea (finding),MODERATE,,,
-735029006,Shellfish (substance),food,39579001.0,Anaphylaxis (disorder),SEVERE,271807003.0,Eruption of skin (disorder),MODERATE
-102263004,Eggs (edible) (substance),food,,,,,,
-735971005,Fish (substance),food,267036007.0,Dyspnea (finding),MODERATE,878820003.0,Rhinoconjunctivitis (disorder),MILD
-442571000124108,Tree nut (substance),food,39579001.0,Anaphylaxis (disorder),SEVERE,402387002.0,Allergic angioedema (disorder),MODERATE
-84489001,Mold (organism),environment,267101005.0,Nose running,MILD,,,
-260147004,House dust mite (organism),environment,,,,,,
-264287008,Animal dander (substance),environment,878820003.0,Rhinoconjunctivitis (disorder),MODERATE,,,
-256277009,Grass pollen (substance),environment,,,,,,
-782576004,Tree pollen (substance),environment,,,,,,
-412071004,Wheat (substance),food,,,,,,
-762952008,Peanut (substance),food,39579001.0,Anaphylaxis (disorder),SEVERE,247472004.0,Wheal (finding),MODERATE
+256355007,Soya bean (substance),food,62315008,Diarrhea (finding),MILD,,,
+3718001,Cow's milk (substance),food,247472004,Wheal (finding),MILD,,,
+288328004,Bee venom (substance),environment,,Swelling (finding),MILD,,Anaphylaxis (disorder),SEVERE
+111088007,Latex (substance),environment,267036007,Dyspnea (finding),MODERATE,,,
+735029006,Shellfish (substance),food,39579001,Anaphylaxis (disorder),SEVERE,271807003,Eruption of skin (disorder),MODERATE
+102263004,Eggs (edible) (substance),food,,Nasal congestion,MODERATE,,Anaphylaxis (disorder),SEVERE
+735971005,Fish (substance),food,267036007,Dyspnea (finding),MODERATE,878820003,Rhinoconjunctivitis (disorder),MILD
+442571000124108,Tree nut (substance),food,39579001,Anaphylaxis (disorder),SEVERE,402387002,Allergic angioedema (disorder),MODERATE
+84489001,Mold (organism),environment,267101005,Nose running,MILD,,,
+260147004,House dust mite (organism),environment,,Swelling ,MILD,,Anaphylaxis (disorder),SEVERE
+264287008,Animal dander (substance),environment,878820003,Rhinoconjunctivitis (disorder),MODERATE,,,
+256277009,Grass pollen (substance),environment,,Rhinorrhea ,MODERATE,,,
+782576004,Tree pollen (substance),environment,,Nasal congestion,MODERATE,,,
+412071004,Wheat (substance),food,,Swelling,MILD,,Nasal congestion,MODERATE
+762952008,Peanut (substance),food,39579001,Anaphylaxis (disorder),SEVERE,247472004,Wheal (finding),MODERATE
