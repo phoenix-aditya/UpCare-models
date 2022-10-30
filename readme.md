@@ -1,14 +1,9 @@
 # WeCARE APIS
 
----
 
-## Github
+## Deployed API'S
 
-[GitHub - phoenix-aditya/WeCARE-models: machine learning models for Optum Strateathon submission by team Hackintosh](https://github.com/phoenix-aditya/WeCARE-models)
-
-## Deployed
-
-[FastAPI - Swagger UI](https://wecare-model.herokuapp.com/)
+https://wecare-model.herokuapp.com/
 
 ---
 
