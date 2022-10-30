@@ -53,6 +53,11 @@ class ThyroidDisease(BaseModel):
     T4U: float
     FTI: float
 
+class Allergy(BaseModel):
+    age: float
+    latitude: float
+    longitude: float
+
 @app.get("/")
 def index():
     return RedirectResponse(url='/docs')
@@ -95,6 +100,15 @@ def thyroidDisease(info: ThyroidDisease):
         info.T4U,
         info.FTI
     ]]
-    print("here: ",data)
     res = predictThyroidDisease(data)
+    return res
+
+@app.post("/Allergy/")
+def getAllergy(info: Allergy):
+    data = [[
+        info.age,
+        info.latitude,
+        info.latitude
+    ]]
+    res = predictAllergy(data)
     return res
